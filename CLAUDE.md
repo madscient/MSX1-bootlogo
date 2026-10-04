@@ -72,6 +72,7 @@ python tools/gen_assets.py --check assets/ が生成元と一致するか
 - **`build/` の中身はコミットしない。** openMSX 用に作る機種定義や設定にはローカルのパスが入る。
 - **openMSX を試しに直接起動するときは、環境変数 `OPENMSX_USER_DATA` と `OPENMSX_HOME` の両方を `build/` の中のフォルダに向ける。** 向けずに起動すると、利用者自身の openMSX のファイルが書き換わる。`OPENMSX_USER_DATA` だけでは、時計チップや電池つき RAM を持つ機種の保存ファイル（`persistent/`）が利用者側に書かれる。
 - **リリースには `msx_logo_page1.rom` と `msx_logo_page2.rom` の両方を同梱する。** 同梱する前に、2 つの SHA-256 が `docs/technical.md` の「検証状況」の値と一致することを確かめる。
+- **リリースを出したら、`docs/ai/history.md` の「リリースの記録」の表に 1 行足す。** 版、公開日、コミット、添付したファイルの SHA-256 を書く。手順の例も同じ節にある。
 
 ## ROM のコードで守ること
 
