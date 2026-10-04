@@ -94,3 +94,11 @@ python tools/test_openmsx.py
 ## 詳しい資料
 
 バイナリの仕様、メモリの使い方、RAM 容量の調べ方、ロゴ画像データの作り直し方、検証の範囲は [docs/technical.md](docs/technical.md) にまとめています。
+
+## ライセンス
+
+[MIT License](LICENSE) です。
+
+## 商標
+
+MSXロゴはMSXライセンシングコーポレーションの商標です。

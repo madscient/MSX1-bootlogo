@@ -17,6 +17,7 @@ MSX1 起動ロゴ ROM の仕様・設計・検証状況をまとめた、開発�
 | `tools/verify.py` | ビルドした ROM を、限定的な検証用プログラムで実行して確かめる |
 | `tools/test_openmsx.py`、`tools/openmsx_test.tcl` | ビルドした ROM を openMSX で起動して確かめる |
 | `docs/images/` | 文書に載せる画像 |
+| `LICENSE` | ライセンス（MIT License） |
 | `build/` | ビルドと検証の出力先（Git の追跡対象外） |
 | `CLAUDE.md`、`docs/ai/` | AI アシスタント向けの作業ガイドと記録 |
 
